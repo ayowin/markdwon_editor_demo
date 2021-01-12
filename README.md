@@ -34,6 +34,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * 选用mavonEditor作为markdown编辑器组件，可编辑可预览。gitlub:  [https://github.com/hinesboy/mavonEditor](https://link.jianshu.com/?t=https%3A%2F%2Fgithub.com%2Fhinesboy%2FmavonEditor) 
 
 * 简单写了一个参考demo，点击提交按钮打印markdown内容，绑定了图片上传删除回调。
+* 选用了marked作为html和markdown混合渲染技术。
 
 
 
@@ -42,6 +43,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```shell
 # 安装mavon-editor
 npm install mavon-editor --save
+
+# 安装marked
+npm install marked --save
 
 # 运行vue
 npm run serve
